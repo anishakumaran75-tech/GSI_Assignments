@@ -1,5 +1,5 @@
 package dailyassignments;
-public class StudentResultSystem {
+public class Prog4_StudentResultSystem {
 public static void main(String[] args) {
 	//24_03_2026_assignment
 	

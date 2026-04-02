@@ -1,6 +1,6 @@
 package dailyassignments;
 
-public class MultipleOfTwoandFive {
+public class Prog5_MultipleOfTwoandFive {
 	//25_03_2026_Assignment
 	
 	public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package dailyassignments;
 
-public class StudentManagementSystem {
+public class Prog1_StudentManagementSystem {
 	public static void main(String[] args) {
 		//19_03_2026_coding_assignment
 		

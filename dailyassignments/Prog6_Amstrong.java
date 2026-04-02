@@ -1,6 +1,6 @@
 package dailyassignments;
 
-public class Amstrong {
+public class Prog6_Amstrong {
 	public static void main(String[] args) {
 		//		26_03_2026_Assignment
 		

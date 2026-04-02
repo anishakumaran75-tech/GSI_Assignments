@@ -1,6 +1,6 @@
 package dailyassignments;
 
-public class Factorial {
+public class Prog8_Factorial {
 	public static void main(String[] args) {
 		//30_03_2026_Assignment_Factorial
 		

@@ -1,6 +1,6 @@
 package dailyassignments;
 
-public class Typecasting {
+public class Prog2_Typecasting {
 	public static void main(String[] args) {
 		//20_3_2026_typecasting
 		

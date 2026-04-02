@@ -1,6 +1,6 @@
 package dailyassignments;
 
-public class OnelineCoding {
+public class Prog3_OnelineCoding {
 	public static void main(String[] args) {
 		//23_03_2026_Assignment
 		
