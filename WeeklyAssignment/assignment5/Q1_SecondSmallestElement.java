@@ -15,7 +15,7 @@ public class Q1_SecondSmallestElement {
 				secondSmall=arr[i];
 			}
 		}
-		System.out.println(small+","+secondSmall);
+		System.out.println(secondSmall);
 	}
 
 }
