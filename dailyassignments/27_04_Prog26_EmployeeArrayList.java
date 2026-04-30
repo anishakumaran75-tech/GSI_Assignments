@@ -2,7 +2,8 @@ package dailyassignments;
 
 import java.util.*;
 
-class EmployeeDetails {
+class EmployeeDetails implements Comparable<EmployeeDetails>
+{
     int id;
     String name;
     double salary;
@@ -16,7 +17,10 @@ class EmployeeDetails {
     }
 
     public String toString() {
-        return id + " " + name + " " + salary + " " + department;
+        return id + ":" + name + ":" + salary + ":" + department;
+    }
+    public int compareTo(EmployeeDetails ob) {
+    	return (int) (this.salary-ob.salary);
     }
 }
 
@@ -24,7 +28,7 @@ public class Prog26_EmployeeArrayList {
     public static void main(String[] args) {
     	//27_04_2026_Assignment
 
-        ArrayList<EmployeeDetails> list = new ArrayList<>();
+        ArrayList<EmployeeDetails> list = new ArrayList<EmployeeDetails>();
 
         // Add 6 employees
         list.add(new EmployeeDetails(101, "Anu", 45000, "HR"));
@@ -43,7 +47,7 @@ public class Prog26_EmployeeArrayList {
         }
 
         // 2. Sort by salary ascending
-        Collections.sort(list, (a, b) -> Double.compare(a.salary, b.salary));
+        Collections.sort(list);
 
         System.out.println("\nSorted by Salary:");
         for (EmployeeDetails e : list) {
