@@ -1,3 +1,0 @@
-Java is simple
-Threads are powerful
-File handling is important
